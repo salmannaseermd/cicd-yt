@@ -45,7 +45,7 @@ pipeline{
 
                     dir('kubernetes/') {
                         
-                              sh 'helm datree test myapp/'
+                              sh 'helm datree test --include-tests myapp/'
                         
                     }
                 }
