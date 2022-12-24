@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         VERSION = "${env.BUILD_ID}"
-        NexusIP = 3.239.76.170
+        NexusIP = "3.239.76.170"
     }
     stages{
         stage("sonar quality check"){
